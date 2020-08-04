@@ -1,0 +1,196 @@
+
+body {
+	font-family: 'Chilanka', cursive;
+	background-image: url(Gradient_Geometric_Background_1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-color: #464646;
+}
+
+/*encabezado*/
+.encabezado{
+	background-color: black;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 5px;
+	align-items: center;
+}
+
+.logo {
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.list-inline{
+	padding: 5px;
+	height: 100%;
+	border:0px;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+}
+
+.list-inline a {
+	color: red;
+	opacity: 0.95;
+	text-decoration: none;
+	font-size: 24px;
+	padding: 0px 10px;
+}
+
+.list-inline a:hover {
+	opacity: 1;
+}
+
+.list-inline h1 {
+	font-size: x-small;
+	color: red;
+	margin: 0px;
+}
+
+.tabs-underlined {
+  display: flex;
+  align-items: center;
+}
+
+.tabs-underlined .tab-underlined {
+  color: red;
+  border:0px;
+  margin: 0px;
+  opacity: .4;
+  font-size: x-small;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+}
+
+.tabs-underlined .tab-underlined.active {
+  opacity: 1;
+  margin: 0px;
+  border-bottom: 3px solid #555555;
+}
+
+.idiomas {
+	border-style: solid;
+	border-color: #A12D1D;
+	border-radius: 15px;
+}
+
+
+/*banner*/
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner h2 {
+	margin: 20px;
+}
+
+.logo-banner {
+	border-radius: 50%;
+	height: 300px;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+/*menu de opciones*/
+/*2da parte*/
+/*plantilla*/
+
+.carousel-inner img {
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.border-black{
+  color: grey;
+  text-shadow: 
+     2px   0  0   #000, 
+    -2px   0  0   #000, 
+     0    2px 0   #000, 
+     0   -2px 0   #000, 
+     1px  1px 0   #000, 
+    -1px -1px 0   #000, 
+     1px -1px 0   #000, 
+    -1px  1px 0   #000,
+     1px  1px 5px #000;
+}
+
+/*footer*/
+
+.footer {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links h1{
+  color: red;
+  font-size: x-small;
+}
+
+.footer-links a {
+  color: red;
+  opacity: 0.95;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.footer-final h1{
+  color: red;
+  font-size: x-small;
+}
+
+.footer-final a {
+  color: red;
+  opacity: 0.95;
+  text-decoration: none;
+  font-size: small;
+  padding: 0px 10px;
+}
+.footer-final a:hover {
+  opacity: 1;
+}
+
